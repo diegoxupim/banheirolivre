@@ -1,0 +1,16 @@
+body {
+	background-color: #d2d2d0;
+}
+
+#mycoolstuff {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+	z.index: -100;
+	-webkit-transition: background-color 500ms ease-in;
+	-moz-transition: background-color 500ms ease-in;
+	-o-transition: background-color 500ms ease-in;
+	transition: background-color 500ms ease-in;
+}

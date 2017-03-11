@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Banheiro livre configuração</title></head>
+  <meta charset="UTF-8">
+  <body>
+    <style>
+      #msg {
+        color: green;
+        display: none;
+        opacity: 0;
+      }
+    </style>
+
+    <label>
+      API URL:
+      <input type="text" id="url" value="http://172.27.72.235/api" size="60">
+    </label>
+
+    <button id="save">Salvar</button>
+    <span id="msg">Configuração salva.</span>
+
+    <script src="jquery.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

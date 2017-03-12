@@ -11,28 +11,28 @@ PORT_NUMBER = 8080
 PATH = path.dirname(path.abspath(__file__)) + "/"
 UPDATE_DELAY = 30
 
-"""Banheiro Recepção"""
-def sensorEvent1(channel=0):
+"""Fio Branco"""
+def sensorEvent(channel=0):
 	global wc_busy 
-	wc1_busy = GPIO.input(17)
+	wc_busy = GPIO.input(17) 	
 
-"""Banheiro Principal"""
+"""Fio Vermelho"""
 def sensorEvent2(channel=0):
-	global wc_busy 
-	wc2_busy = GPIO.input(27)	
+	global wc_busy2 
+	wc_busy2 = GPIO.input(27)	
 
-def timedUpdate1():
-	global wc_busy1
-	wc_busy1 = GPIO.input(17)
+def timedUpdate():
+	global wc_busy
+	wc_busy = GPIO.input(17)
 	threading.Timer(UPDATE_DELAY, timedUpdate, ()).start()
-	
-def timedUpdate2():
+
+def timedUpdate():
 	global wc_busy2
 	wc_busy2 = GPIO.input(27)
 	threading.Timer(UPDATE_DELAY, timedUpdate, ()).start()
 
-def isWCBusy1():
-	return not wc_busy1
+def isWCBusy():
+	return not wc_busy
 
 def isWCBusy2():
 	return not wc_busy2
@@ -48,8 +48,17 @@ class RequestHandler(BaseHTTPRequestHandler):
 		if s.path == "/api":
 			s.send_header("Content-type", "text/plain")
 			s.end_headers()
-			s.wfile.write(bytes("{}{}".format(isWCBusy1(),isWCBusy2()), "UTF-8"))
-			
+			if isWCBusy() == True and isWCBusy2() == True :
+				s.wfile.write(bytes("truetrue", "UTF-8"))
+			elif isWCBusy() == True and isWCBusy2() == False :
+				s.wfile.write(bytes("truefalse", "UTF-8"))
+			elif isWCBusy() == False and isWCBusy2() == True :
+				s.wfile.write(bytes("falsetrue", "UTF-8"))
+			elif isWCBusy() == False and isWCBusy2() == False :
+				s.wfile.write(bytes("falsefalse", "UTF-8"))
+			else:
+				s.wfile.write(bytes("unknow", "UTF-8"))
+
 		if s.path.endswith(("/", ".html", "css", ".js", ".png")):
 			if s.path == "/":
 				s.path = "/index.html"
@@ -64,18 +73,17 @@ class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
 	pass
 
 if __name__ == '__main__':
-	global wc_busy1
-	global wc_busy2
+	global wc_busy
 	try:
 		GPIO.setmode(GPIO.BCM)
-		
 		GPIO.setup(17, GPIO.IN, pull_up_down=GPIO.PUD_UP)	     
-		GPIO.add_event_detect(17, GPIO.BOTH, callback=sensorEvent1)
+		GPIO.add_event_detect(17, GPIO.BOTH, callback=sensorEvent)
 		
+		GPIO.setmode(GPIO.BCM)
 		GPIO.setup(27, GPIO.IN, pull_up_down=GPIO.PUD_UP)	     
 		GPIO.add_event_detect(27, GPIO.BOTH, callback=sensorEvent2)
 
-		wc_busy1 = GPIO.input(17)
+		wc_busy = GPIO.input(17)
 		wc_busy2 = GPIO.input(27)
 	
 		threading.Timer(UPDATE_DELAY, timedUpdate, ()).start()

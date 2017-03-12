@@ -1,4 +1,4 @@
-var URL = 'http://172.27.72.235/api';
+var URL = 'http://localhost:8080/api';
 
 
 function main() {
@@ -16,7 +16,7 @@ function main() {
         }
 
         chrome.alarms.onAlarm.addListener(updateState);
-        chrome.alarms.create({ delayInMinutes: 0, periodInMinutes: 0.1 });
+        chrome.alarms.create({ delayInMinutes: 0, periodInMinutes: 0.05 });
     });
 }
 
@@ -24,28 +24,26 @@ function main() {
 function updateState() {
     if (URL && URL != '') {
         $.get(URL).then(function(data) {
-            //data = Math.random() > 0.5 ? 'free' : 'busy';
-            //console.log(data)
-			switch(data.toLowerCase()) {
-					case "truetrue":
-						icon = 'livre1livre2.png';
-						msg = 'Um milagre os dois etão livres!';
-						break;
-					case "truefalse":
-						icon = 'livre1ocupado2.png';
-						msg = 'Corre que o da recepção está livre!';
-						break;
-					case "falsetrue":
-						icon = 'ocupado1livre2.png';
-						msg = 'Corre que o principal está livre!';
-						break;
-					case "falsefalse":
-						icon = 'ocupado1ocupado2.png';
-						msg = 'Pra variar todos ocupados!';
-						break;
-					default:
-						icon = 'unknown.png';
-						msg = 'tenta a sorte(servidor fora do ar)';
+		switch(data) {
+				case "truetrue":
+					icon = 'ocupado1ocupado2.png';
+					msg = 'Um milagre os dois etão livres!';
+					break;
+				case "truefalse":
+					icon = 'ocupado1livre2.png';
+					msg = 'Corre que o da recepção está livre!';
+					break;
+				case "falsetrue":
+					icon = 'livre1ocupado2.png';
+					msg = 'Corre que o principal está livre!';
+					break;
+				case "falsefalse":
+					icon = 'livre1livre2.png';
+					msg = 'Pra variar todos ocupados!';
+					break;
+				default:
+					icon = 'unknown.png';
+					msg = 'tenta a sorte(servidor fora do ar)';
 				}
 				
             chrome.browserAction.setIcon({ path: icon });

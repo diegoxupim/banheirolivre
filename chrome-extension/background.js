@@ -27,19 +27,19 @@ function updateState() {
 		switch(data) {
 				case "truetrue":
 					icon = 'ocupado1ocupado2.png';
-					msg = 'Um milagre os dois etão livres!';
+					msg = 'Pra variar todos ocupados!';
 					break;
 				case "truefalse":
 					icon = 'ocupado1livre2.png';
-					msg = 'Corre que o da recepção está livre!';
+					msg = 'Corre que o principal está livre!';
 					break;
 				case "falsetrue":
 					icon = 'livre1ocupado2.png';
-					msg = 'Corre que o principal está livre!';
+					msg = 'Corre que o da recepção está livre!';
 					break;
 				case "falsefalse":
 					icon = 'livre1livre2.png';
-					msg = 'Pra variar todos ocupados!';
+					msg = 'Um milagre os dois etão livres!';
 					break;
 				default:
 					icon = 'unknown.png';

@@ -1,4 +1,4 @@
-var POLL_PERIOD = 1000; // in milliseconds
+var POLL_PERIOD = 10000; // in milliseconds
 
 $( document ).ready(function() {
 

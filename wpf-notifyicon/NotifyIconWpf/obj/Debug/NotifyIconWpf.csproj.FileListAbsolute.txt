@@ -1,0 +1,5 @@
+F:\Git\banheirolivre\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+F:\Git\banheirolivre\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+F:\Git\banheirolivre\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csprojResolveAssemblyReference.cache
+F:\Git\banheirolivre\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+F:\Git\banheirolivre\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb

@@ -23,11 +23,8 @@ def sensorEvent2(channel=0):
 
 def timedUpdate():
 	global wc_busy
-	wc_busy = GPIO.input(17)
-	threading.Timer(UPDATE_DELAY, timedUpdate, ()).start()
-
-def timedUpdate():
 	global wc_busy2
+	wc_busy = GPIO.input(17)
 	wc_busy2 = GPIO.input(27)
 	threading.Timer(UPDATE_DELAY, timedUpdate, ()).start()
 
@@ -74,12 +71,13 @@ class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
 
 if __name__ == '__main__':
 	global wc_busy
+	global wc_busy2
 	try:
-		GPIO.setmode(GPIO.BCM)
+		GPIO.setmode(GPIO.BCM) 
+		
 		GPIO.setup(17, GPIO.IN, pull_up_down=GPIO.PUD_UP)	     
 		GPIO.add_event_detect(17, GPIO.BOTH, callback=sensorEvent)
 		
-		GPIO.setmode(GPIO.BCM)
 		GPIO.setup(27, GPIO.IN, pull_up_down=GPIO.PUD_UP)	     
 		GPIO.add_event_detect(27, GPIO.BOTH, callback=sensorEvent2)
 

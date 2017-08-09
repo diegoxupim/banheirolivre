@@ -1,0 +1,9 @@
+F:\Git\banheirolivre\windows-task\banheiro-service\obj\Debug\banheiro-service.csprojResolveAssemblyReference.cache
+F:\Git\banheirolivre\windows-task\banheiro-service\obj\Debug\banheiro.service.Properties.Resources.resources
+F:\Git\banheirolivre\windows-task\banheiro-service\obj\Debug\banheiro-service.csproj.GenerateResource.Cache
+F:\Git\banheirolivre\windows-task\banheiro-service\obj\Debug\banheiro.service.BanheiroService.resources
+F:\Git\banheirolivre\windows-task\banheiro-service\bin\Debug\banheiro.service.exe.config
+F:\Git\banheirolivre\windows-task\banheiro-service\bin\Debug\banheiro.service.exe
+F:\Git\banheirolivre\windows-task\banheiro-service\bin\Debug\banheiro.service.pdb
+F:\Git\banheirolivre\windows-task\banheiro-service\obj\Debug\banheiro.service.exe
+F:\Git\banheirolivre\windows-task\banheiro-service\obj\Debug\banheiro.service.pdb

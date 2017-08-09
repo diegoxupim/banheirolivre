@@ -1,0 +1,13 @@
+F:\Git\banheirolivre\windows-task\windows-task\bin\Debug\windows.task.exe.config
+F:\Git\banheirolivre\windows-task\windows-task\bin\Debug\windows.task.exe
+F:\Git\banheirolivre\windows-task\windows-task\bin\Debug\windows.task.pdb
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows-task.csprojResolveAssemblyReference.cache
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows.task.NotificacaoBanheiro.resources
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows.task.Properties.Resources.resources
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows-task.csproj.GenerateResource.Cache
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows.task.exe
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows.task.pdb
+F:\Git\banheirolivre\windows-task\windows-task\bin\Debug\windows.task.exe.manifest
+F:\Git\banheirolivre\windows-task\windows-task\bin\Debug\windows.task.application
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows.task.exe.manifest
+F:\Git\banheirolivre\windows-task\windows-task\obj\Debug\windows.task.application

@@ -1,0 +1,53 @@
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\bin\Debug\Sample Project.exe
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\bin\Debug\Sample Project.pdb
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project.csprojResolveAssemblyReference.cache
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\09 - MVVM\ClockPopup.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\FancyToolTip.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\FancyBalloon.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\FancyPopup.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Main.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\01 - Declaration\NotifyIconResourceDictionary.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\01 - Declaration\SimpleWindowWithNotifyIcon.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\02 - ToolTips\SimpleUserControl.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\02 - ToolTips\InlineToolTipWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\07 - Events\EventVisualizerWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\05 - Balloons\BalloonSampleWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\08 - DataBinding\DataBoundToolTipWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\WelcomeBalloon.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\App.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\09 - MVVM\ClockPopup.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\09 - MVVM\MvvmSampleWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\FancyToolTip.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\FancyBalloon.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\FancyPopup.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Main.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\02 - ToolTips\UserControlToolTipWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\01 - Declaration\SimpleWindowWithNotifyIcon.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\02 - ToolTips\SimpleUserControl.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\02 - ToolTips\InlineToolTipWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\03 - Popups\InlinePopupWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\04 - ContextMenus\InlineContextMenuWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\06 - Commands\CommandWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\07 - Events\EventVisualizerWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\05 - Balloons\BalloonSampleWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\08 - DataBinding\DataBoundToolTipWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\WelcomeBalloon.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\ShowcaseWindow.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\App.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project_MarkupCompile.cache
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project_MarkupCompile.lref
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\09 - MVVM\MvvmSampleWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\NotifyIconResources.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\02 - ToolTips\UserControlToolTipWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\03 - Popups\InlinePopupWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\04 - ContextMenus\InlineContextMenuWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Tutorials\06 - Commands\CommandWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Showcase\ShowcaseWindow.baml
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project.g.resources
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Samples.Properties.Resources.resources
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project.csproj.GenerateResource.Cache
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project.exe
+F:\Git\banheirolivre\wpf-notifyicon\Sample Project\obj\Debug\Sample Project.pdb

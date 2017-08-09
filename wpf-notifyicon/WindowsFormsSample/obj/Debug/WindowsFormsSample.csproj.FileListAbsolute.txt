@@ -1,0 +1,14 @@
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\bin\Debug\WindowsFormsSample.exe
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\bin\Debug\WindowsFormsSample.pdb
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.csprojResolveAssemblyReference.cache
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\FancyPopup.baml
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\FancyPopup.g.cs
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample_MarkupCompile.cache
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.g.resources
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.Form1.resources
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.Properties.Resources.resources
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.csproj.GenerateResource.Cache
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.exe
+F:\Git\banheirolivre\wpf-notifyicon\WindowsFormsSample\obj\Debug\WindowsFormsSample.pdb
